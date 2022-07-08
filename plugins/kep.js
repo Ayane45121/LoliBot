@@ -11,7 +11,7 @@ handler.command = new RegExp
 handler.limit = 10
 handler.mods = false 
 handler.premium = false
-handler.group = false
-handler.private = false
+handler.group = true
+handler.private = true
 
 module.exports = handler
